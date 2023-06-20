@@ -1,0 +1,146 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+ 
+	
+
+	/* Type selector */
+	body {
+    background-color: #f6f8f4;
+	line-height: 1.4;
+	color: #373a34;
+	}
+
+	/* Class selector */
+	.intro {
+		border: 2px solid #ccc;
+		padding: 10px;
+	}
+
+	/* ID slector */
+	#zen-summary{
+		font-weight: bold;
+	}
+
+	/* Attribute selector */
+	
+
+	/* Pseudo-Class selector */
+	a:hover {
+		color: #d576ca;
+	}
+
+	/* Pseudo-Element selector */
+	p::first-letter {
+		font-size: 18px;
+	}
+
+	/*Descendant Combinator */
+	header h1 {
+		color: #ffffff;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-size: 34px;
+		font-style: italic;
+		font-weight: bolder;
+		text-align: center;
+		opacity: 1;
+		text-shadow: 2px 2px 4px #111211;
+	}
+
+	/* Child Combinator */
+	ul > li {
+		font-weight: bold;
+	}
+
+	/* Direct sibling combinator */
+	h2 + p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+
+	/* General sibling combinator */
+	h2 ~ p {
+		color: #8a2be2;
+	}
+
+	div {
+		background: linear-gradient(to bottom,  rgb(188, 200, 138, 0.7), rgb(214, 227, 186, 0.6));
+	}
+
+	a {
+		color: #37aeae;
+	}
+
+	h2 {
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight: lighter;
+		font-style: italic;
+		font-size: 24px;
+		text-align: center;
+		text-shadow: 2px 2px 4px #000000cd;
+	}
+
+	h3 {
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight: lighter;
+	}
+
+	p {
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 16px;
+		font-weight: lighter;
+		padding-left: 10px;
+	}
+
+	.page-wrapper {
+		max-width: 960px auto;
+		padding: 20px;
+		margin: 0 auto;
+		background-image: url("image.jpg");	
+	}
+
+	.explanation h3,
+	.participation h3,
+	.benefits h3,
+	.requirements h3 {
+		font-size: 24px;
+		color: #333;
+		margin: 20px 0 10px;
+		padding-left: 10px;
+		text-shadow: 2px 2px 4px #144840b4;
+	}
+
+	.sidebar {
+		width: 50%;
+		text-align: center;
+	}
+
+	.sidebar ul {
+		margin: 0;
+		padding: 0;
+		}
+
+	.sidebar li {
+		padding-top: 5px;
+		margin-bottom: 5px;
+		display: block;
+	}
+
+	
+	
+
+	
+
+	
+
+	
+	  
+
+
+
